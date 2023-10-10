@@ -1,10 +1,10 @@
 import React from 'react'
+import DescriptionSection from './components/DescriptionSection'
 
 const About = () => {
+  const name="GoShop Store"
   return (
-    <div>
-      About
-    </div>
+    <DescriptionSection name={name}></DescriptionSection>
   )
 }
 

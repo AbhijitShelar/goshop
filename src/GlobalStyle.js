@@ -7,6 +7,7 @@ export const GlobalStyle = createGlobalStyle`
   padding: 0;
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
+  background-color: ${({theme})=>theme.colors.bg};
 }
 
 
@@ -121,7 +122,7 @@ ${"" /* resuable code section  */}
      .intro-data {
       margin-bottom: 0;
       text-transform: uppercase;
-      color: #5138ee;
+      color: black;
     }
 
    .caption {

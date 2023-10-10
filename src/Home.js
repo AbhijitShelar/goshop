@@ -1,13 +1,10 @@
 import React from "react";
-import styled from "styled-components";
-
+import DescriptionSection from "./components/DescriptionSection";
 const Home = () => {
-  return <Wrapper className="test">Home</Wrapper>;
+  const name="GoShop"
+  return <DescriptionSection name={name}/>
 };
 
-const Wrapper = styled.section`
-  height: 100vh;
-  background-color: ${({ theme }) => theme.colors.bg};
-`;
+
 
 export default Home;

@@ -133,6 +133,7 @@ const Navbar = () => {
         z-index: 999;
         transform-origin: right;
         transition: all 3s linear;
+        
 
         .navbar-link {
           font-size: 4.2rem;

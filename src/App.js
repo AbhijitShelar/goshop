@@ -39,11 +39,13 @@ const App = () => {
 
   return (
     <ThemeProvider theme={theme}>
+       
       <BrowserRouter>
         <GlobalStyle />
         <Header />
-
+      
         <Routes>
+        
           <Route path="/" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
@@ -55,7 +57,7 @@ const App = () => {
           <Route path="/cart" element={<Cart />}></Route>
           <Route path="*" element={<ErrorPage />}></Route>
         </Routes>
-        
+
       </BrowserRouter>
     </ThemeProvider>
   );
