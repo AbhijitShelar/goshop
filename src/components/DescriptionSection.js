@@ -42,8 +42,10 @@ img {
 }
 
 .description-section-data {
+    
   p {
     margin: 2rem 0;
+    
   }
 
   h1 {
@@ -53,6 +55,7 @@ img {
 
   .intro-data {
     margin-bottom: 0;
+
   }
 }
 

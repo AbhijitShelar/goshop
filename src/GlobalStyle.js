@@ -7,7 +7,7 @@ export const GlobalStyle = createGlobalStyle`
   padding: 0;
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
-  background-color: ${({theme})=>theme.colors.bg};
+  /* background-color: ${({theme})=>theme.colors.bg}; */
 }
 
 
